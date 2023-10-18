@@ -62,6 +62,9 @@ body{
     font-family:Franklin Gothic;
     margin-bottom: 8px;
 }
+.student-list li:hover{
+    font-size: 20px;
+}
 .student-list p{
     text-align: center;
     font-size: 28px;
@@ -126,10 +129,12 @@ body{
         margin: 10px;
         text-align: center;
         font-size: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
         
     }
     .search-bar input{
-        width: 300px;
+        width: 200px;
         height: 18px;
         font-size: 14px;
     }
@@ -148,13 +153,23 @@ body{
     
     }
     .student-list li{
+        
         font-family:Franklin Gothic;
         margin-bottom: 8px;
+        font-size: 13px;
+        margin-left: -16px;
+        margin-bottom: 4px;
+        background-color: rgb(231, 192, 120);
+
+    }
+    .student-list li:hover{
         font-size: 15px;
     }
     .student-list p{
+        margin-top: 10px;
+        margin-bottom: 10px;
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
         text-decoration: underline;
     }
     
@@ -180,11 +195,12 @@ body{
     
     }
     .student-info h2{
-        font-size: 25px;
+        font-size: 23px;
        
     }
     .container{
-        
+    padding-left:25px;
+    padding-right: 25px;
     display:flex;
     justify-content: center;
 

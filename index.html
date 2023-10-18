@@ -143,18 +143,18 @@
             padding-left: 10px;
             font-size: 10px;
             height: 180px;
-            width: 230px;
+            width: 270px;
             border-radius: 10%;
             padding-right: 30px;
             background-color: rgba(235, 224, 210, 0.555);
             
         }
         .login-container label {
-            font-size: 10px;
+            font-size: 12px;
         }
         .login-container input[type="text"],
         .login-container input[type="password"] {
-            font-size: 10px;
+            font-size: 12px;
             margin-bottom: 1px;
         }
         .bg .credit{
@@ -170,8 +170,9 @@
         .hint{
             margin-top: 5px;
             font-size: 10px;
-            height: 15px;
-            width: 15px;
+            font-weight: bold;
+            height: 25px;
+            width: 25px;
             background-color: rgba(110, 110, 110, 0.46);
             border-radius: 50%;
             cursor: pointer;
@@ -229,8 +230,8 @@
         }
 
         // Username and Password hint messages
-        const usernameHint = 'yourusername';
-        const passwordHint = 'yourpassword';
+        const usernameHint = 'user_name';
+        const passwordHint = 'pass_word';
 
         const hintButton = document.getElementById('hint-button');
         hintButton.addEventListener('click', function() {
@@ -246,7 +247,7 @@
             const password = document.getElementById('password').value;
 
             // Perform authentication logic here (e.g., check username and password)
-            if (username === 'yourusername' && password === 'yourpassword') {
+            if (username === 'user_name' && password === 'pass_word') {
                 // Redirect to another page on successful login
                 window.location.href = 'home.html'; // Change 'welcome.html' to the desired page
             } else {
